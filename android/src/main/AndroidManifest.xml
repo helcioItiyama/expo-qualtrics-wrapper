@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="expo.modules.qualtrics">
+  <application>
+    <activity android:name="com.qualtrics.digital.QualtricsSurveyActivity" />
+    <activity
+      android:name="com.qualtrics.digital.QualtricsPopOverActivity"
+      android:theme="@style/Qualtrics.Theme.Transparent" />
+  </application>
+</manifest>
